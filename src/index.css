@@ -5,6 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:rgb(26, 26, 26);
+}
+
+html {
+  overflow-x:hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+  border-radius: 10%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  width:2px;
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff; 
+  border-radius: 100%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ 
 }
 
 code {
